@@ -1,0 +1,10 @@
+<div class="container mt-4">
+  <h1 class="mb-3">Where To Watch</h1>
+  <div class="input-group mb-3">
+    <input type="text" class="form-control" name="anime" #anime placeholder="Enter anime name" (keyup.enter)="cercaShow(anime)">
+    <button (click)="cercaShow(anime)" class="btn btn-primary">Cerca</button>
+  </div>
+  <p class="text-muted">
+    Esegui una ricerca per trovare dove guardare lo show che ti interessa.
+  </p>
+</div>
